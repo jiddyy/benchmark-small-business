@@ -1,3 +1,6 @@
+.container {
+    margin-left: 10px;
+}
 .page_head {
     background-color: white;
     text-align: center;
@@ -37,7 +40,7 @@ body {
     border: solid white;
     height: 3.9rem;
     width: 100vw;
-    margin-left: -15px;
+    margin-left: -30px;
     /* padding-left: 5.7rem; */
 }
 .nav_list {
@@ -101,7 +104,7 @@ body {
 .new-product-list {
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     list-style-type: none;
     overflow: hidden;
     align-items: center;
@@ -126,7 +129,8 @@ body {
     padding-left: 2rem;
 }
 .new-monitor {
-    padding-left: 29.2rem;
+    /* padding-left: 29.2rem; */
+    margin-left: 110px;
 }
 .new_monitor_img {
     width: 15rem;
