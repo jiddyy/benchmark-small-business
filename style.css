@@ -1,0 +1,161 @@
+.page_head {
+    background-color: white;
+    text-align: center;
+    padding: 17px;
+    font-family: "Press Start 2p", cursive;
+  /*  background-image: url("head-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px; */
+}
+h1 {
+    font-size: 50px;
+    color: black;
+}
+/* .pc_icon {
+    height: 165px;
+    width: 165px;
+    display: block;
+    margin-left: 67.7%;
+    margin-right: auto;
+} */
+.header_p {
+    text-align: right;
+    padding-right: 15rem;
+    color: black;
+    font-family: "Coda", cursive;
+}
+body {
+    background-color: white;
+    margin: 0;
+    font-family: "Coda", cursive;
+    padding: 10px;
+}
+.nav_bar {
+    background-color: #ddd;
+    border: solid white;
+    height: 3.9rem;
+    width: 100vw;
+    margin-left: -15px;
+    /* padding-left: 5.7rem; */
+}
+.nav_list {
+    display: flex;
+    color: #404040;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    align-items: center;
+    text-decoration: none;
+}
+.ul-home {
+    border-right: 2px solid #bbb;
+    padding: 10px;
+    flex: 2 2 auto;
+    padding-left: 15px;
+    text-align: center;
+}
+.ul-home:hover {
+    background-color: white;
+    color: black;
+    transform: scaleY(1.2);
+    margin-top: -7px;
+}
+.ul-keyboard-mouse {
+    border-right: 2px solid #bbb;
+    padding: 10px;
+    flex: 2 2 auto;
+    text-align: center;
+}
+.ul-keyboard-mouse:hover {
+    background-color: white;
+    color: black;
+    transform: scaleY(1.2);
+    margin-top: -7px;
+}
+.ul-chair-desk {
+    border-right: 2px solid #bbb;
+    padding: 10px;
+    flex: 2 2 auto;
+    text-align: center;
+}
+.ul-chair-desk:hover {
+    background-color: white;
+    color: black;
+    transform: scaleY(1.2);
+    margin-top: -7px;
+}
+.ul-computer-monitor {
+    padding: 10px;
+    flex: 2 2 auto;
+    text-align: center;
+}
+.ul-computer-monitor:hover {
+    background-color: white;
+    color: black;
+    transform: scaleY(1.2);
+    margin-top: -7px;
+}
+.new-product-list {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    overflow: hidden;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #bbb;
+}
+.keyboard_h3 {
+    border: solid black;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 20px;
+}
+/* .keyboard_h3:hover {
+        
+} */
+.new-keyboard {
+    padding-right: 29.2rem;
+}
+.new_keyboard_img {
+    width: 25rem;
+    height: 10rem;
+    padding-left: 2rem;
+}
+.new-monitor {
+    padding-left: 29.2rem;
+}
+.new_monitor_img {
+    width: 15rem;
+    height: 10rem;
+    
+}
+.monitor_h3 {
+    text-align: center;
+    border: solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.about {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #bbb;
+}
+/* .customer-service {
+    /* padding-bottom: 20px; */
+    /* border-bottom: 2px solid #bbb; 
+} */
+.page_foot {
+    text-align: center;
+    background-color: #bbb;
+    padding: 10px;
+    width: 100vw;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    background-size: cover;
+}
+a:link {
+    color: black;
+}
