@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+a:link {
+    text-decoration: none;
+}
 body {
     background-color: white;
     margin: 0;
@@ -8,9 +14,9 @@ body {
     background-color: #ddd;
     border: solid white;
     height: 3.9rem;
-    width: 100vw;
-    margin-left: -30px;
-    /* padding-left: 5.7rem; */
+    width: 80.45rem;
+    margin-left: -25px;
+    margin-right:-20px;
 }
 .nav_list {
     display: flex;
@@ -69,4 +75,16 @@ body {
     color: black;
     transform: scaleY(1.2);
     margin-top: -7px;
+}
+.keyboard-mouse-list {
+    list-style-type: none;
+    overflow: hidden;
+}
+.new_keyboard_img {
+    width: 25rem;
+    height: 10rem;
+}
+a:link {
+    text-decoration: none;
+    color: black;
 }

@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .container {
     margin-left: 10px;
 }
@@ -6,23 +9,11 @@
     text-align: center;
     padding: 17px;
     font-family: "Press Start 2p", cursive;
-  /*  background-image: url("head-background.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px; */
 }
 h1 {
     font-size: 50px;
     color: black;
 }
-/* .pc_icon {
-    height: 165px;
-    width: 165px;
-    display: block;
-    margin-left: 67.7%;
-    margin-right: auto;
-} */
 .header_p {
     text-align: right;
     padding-right: 15rem;
@@ -34,14 +25,15 @@ body {
     margin: 0;
     font-family: "Coda", cursive;
     padding: 10px;
+    max-width: 100%;
 }
 .nav_bar {
     background-color: #ddd;
     border: solid white;
     height: 3.9rem;
-    width: 100vw;
-    margin-left: -30px;
-    /* padding-left: 5.7rem; */
+    width: 80.45rem;
+    margin-left: -25px;
+    margin-right:-20px;
 }
 .nav_list {
     display: flex;
@@ -57,14 +49,14 @@ body {
     border-right: 2px solid #bbb;
     padding: 10px;
     flex: 2 2 auto;
-    padding-left: 15px;
     text-align: center;
 }
 .ul-home:hover {
     background-color: white;
     color: black;
     transform: scaleY(1.2);
-    margin-top: -7px;
+    margin-top: -7.3px;
+    margin-left: -10px;
 }
 .ul-keyboard-mouse {
     border-right: 2px solid #bbb;
@@ -76,7 +68,7 @@ body {
     background-color: white;
     color: black;
     transform: scaleY(1.2);
-    margin-top: -7px;
+    margin-top: -7.3px;
 }
 .ul-chair-desk {
     border-right: 2px solid #bbb;
@@ -88,7 +80,7 @@ body {
     background-color: white;
     color: black;
     transform: scaleY(1.2);
-    margin-top: -7px;
+    margin-top: -7.3px;
 }
 .ul-computer-monitor {
     padding: 10px;
@@ -99,7 +91,8 @@ body {
     background-color: white;
     color: black;
     transform: scaleY(1.2);
-    margin-top: -7px;
+    margin-top: -7.3px;
+    margin-right: -10px;
 }
 .new-product-list {
     display: grid;
@@ -117,20 +110,13 @@ body {
     text-align: center;
     padding-right: 20px;
 }
-/* .keyboard_h3:hover {
-        
-} */
-.new-keyboard {
-    padding-right: 29.2rem;
-}
 .new_keyboard_img {
     width: 25rem;
     height: 10rem;
     padding-left: 2rem;
 }
 .new-monitor {
-    /* padding-left: 29.2rem; */
-    margin-left: 110px;
+    margin-left: 95px;
 }
 .new_monitor_img {
     width: 15rem;
@@ -147,19 +133,17 @@ body {
     padding-bottom: 20px;
     border-bottom: 2px solid #bbb;
 }
-/* .customer-service {
-    /* padding-bottom: 20px; */
-    /* border-bottom: 2px solid #bbb; 
-} */
 .page_foot {
     text-align: center;
     background-color: #bbb;
     padding: 10px;
-    width: 100vw;
-    margin-left: -10px;
-    margin-bottom: -10px;
+    width: 80.45rem;
+    margin-left: -25px;
+    margin-right:-30px;
+    margin-bottom: -25px;
     background-size: cover;
 }
 a:link {
     color: black;
+    text-decoration: none;
 }
