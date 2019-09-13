@@ -40,7 +40,7 @@ body {
     color: #404040;
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     overflow: hidden;
     align-items: center;
     text-decoration: none;
@@ -57,6 +57,7 @@ body {
     transform: scaleY(1.2);
     margin-top: -7.3px;
     margin-left: -10px;
+    margin-bottom: -12px;
 }
 .ul-keyboard-mouse {
     border-right: 2px solid #bbb;
@@ -69,6 +70,7 @@ body {
     color: black;
     transform: scaleY(1.2);
     margin-top: -7.3px;
+    margin-bottom: -12px;
 }
 .ul-chair-desk {
     border-right: 2px solid #bbb;
@@ -81,6 +83,7 @@ body {
     color: black;
     transform: scaleY(1.2);
     margin-top: -7.3px;
+    margin-bottom: -12px;
 }
 .ul-computer-monitor {
     padding: 10px;
@@ -93,6 +96,7 @@ body {
     transform: scaleY(1.2);
     margin-top: -7.3px;
     margin-right: -10px;
+    margin-bottom: -12px;
 }
 .new-product-list {
     display: grid;
@@ -111,7 +115,7 @@ body {
     padding-right: 20px;
 }
 .new_keyboard_img {
-    width: 25rem;
+    width: 31rem;
     height: 10rem;
     padding-left: 2rem;
 }
@@ -137,7 +141,7 @@ body {
     text-align: center;
     background-color: #bbb;
     padding: 10px;
-    width: 80.45rem;
+    width: 80.95rem;
     margin-left: -25px;
     margin-right:-30px;
     margin-bottom: -25px;

@@ -11,9 +11,10 @@ body {
     background-color: #ddd;
     border: solid white;
     height: 3.9rem;
-    width: 100vw;
+    width: 80.99rem;
     margin-left: -25px;
-    margin-right:-20px;
+    margin-right: -20px;
+    margin-top: -20px;
 }
 .nav_list {
     display: flex;
@@ -73,7 +74,37 @@ body {
     transform: scaleY(1.2);
     margin-top: -7px;
 }
+.computer-monitor-list {
+    list-style-type: none;
+    overflow: hidden;
+}
+.new-monitor-img {
+    width: 15rem;
+    height: 10rem;
+}
+.computer1-img {
+    width: 14rem;
+    height: 12rem;
+}
+.monitor2-img {
+    width: 15rem;
+    height: 10rem;
+}
+.computer2-img {
+    width: 14rem;
+    height: 12rem;
+}
 a:link {
     text-decoration: none;
     color: black;
+}
+.page_foot {
+    text-align: center;
+    background-color: #bbb;
+    padding: 10px;
+    width: 80.95rem;
+    margin-left: -25px;
+    margin-right:-30px;
+    margin-bottom: -25px;
+    background-size: cover;
 }
