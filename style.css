@@ -5,31 +5,35 @@
     margin-left: 10px;
 }
 .page_head {
-    background-color: white;
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 17px;
     font-family: "Press Start 2p", cursive;
 }
 h1 {
     font-size: 50px;
-    color: black;
+    color: white;
 }
 .header_p {
     text-align: right;
     padding-right: 15rem;
-    color: black;
+    color: white;
     font-family: "Coda", cursive;
 }
 body {
-    background-color: white;
+    background-color: black;
+    color: white;
     margin: 0;
     font-family: "Coda", cursive;
     padding: 10px;
     max-width: 100%;
 }
 .nav_bar {
-    background-color: #ddd;
-    border: solid white;
+    /* background-color: #ddd; */
+    background-color: black;
+    color: black;
+    border: solid darkred;
     height: 3.9rem;
     width: 80.45rem;
     margin-left: -25px;
@@ -52,7 +56,7 @@ body {
     text-align: center;
 }
 .ul-home:hover {
-    background-color: white;
+    background-color: darkred;
     color: black;
     transform: scaleY(1.2);
     margin-top: -7.3px;
@@ -66,7 +70,7 @@ body {
     text-align: center;
 }
 .ul-keyboard-mouse:hover {
-    background-color: white;
+    background-color: darkred;
     color: black;
     transform: scaleY(1.2);
     margin-top: -7.3px;
@@ -79,7 +83,7 @@ body {
     text-align: center;
 }
 .ul-chair-desk:hover {
-    background-color: white;
+    background-color: darkred;
     color: black;
     transform: scaleY(1.2);
     margin-top: -7.3px;
@@ -91,7 +95,7 @@ body {
     text-align: center;
 }
 .ul-computer-monitor:hover {
-    background-color: white;
+    background-color: darkred;
     color: black;
     transform: scaleY(1.2);
     margin-top: -7.3px;
@@ -106,10 +110,10 @@ body {
     overflow: hidden;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 2px solid #bbb;
+    border-bottom: 2px solid darkred;
 }
 .keyboard_h3 {
-    border: solid black;
+    border: solid darkred;
     padding-left: 20px;
     text-align: center;
     padding-right: 20px;
@@ -129,17 +133,17 @@ body {
 }
 .monitor_h3 {
     text-align: center;
-    border: solid black;
+    border: solid darkred;
     padding-right: 20px;
     padding-left: 20px;
 }
 .about {
     padding-bottom: 20px;
-    border-bottom: 2px solid #bbb;
+    border-bottom: 2px solid darkred;
 }
 .page_foot {
     text-align: center;
-    background-color: #bbb;
+    background-color: darkred;
     padding: 10px;
     width: 80.95rem;
     margin-left: -25px;
@@ -148,6 +152,21 @@ body {
     background-size: cover;
 }
 a:link {
-    color: black;
+    text-decoration: underline;
+}
+a {
+    color: white;
     text-decoration: none;
+}
+.contact:hover {
+    color: lightblue;
+}
+.side-bar {
+    position: absolute;
+    height: 400px;
+    width: 200px;
+    right: 5px;
+    border: 2px solid darkred;
+    margin-top: 40px;
+    padding: 1rem;
 }
